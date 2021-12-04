@@ -17,6 +17,6 @@ for i in range(len(lines[0])-1):
     else:
         eps = eps + 2 ** (len(lines[0])-2-i)
 
-print("gamma :: " + str(gam))
+print("gamma   :: " + str(gam))
 print("epsilon :: " + str(eps))
-print("result :: " + str(gam * eps))
+print("result  :: " + str(gam * eps))
